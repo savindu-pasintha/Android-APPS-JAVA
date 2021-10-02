@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wify blutooth on off app</string>
+
+    <string name="notification_activity">NotificationView</string>
+</resources>

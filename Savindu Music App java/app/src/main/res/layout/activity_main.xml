@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F5F5"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/name"
+      android:layout_width="803dp"
+      android:layout_height="80dp"
+      android:background="#121111"
+      android:capitalize="words"
+      android:gravity="center_horizontal|center_vertical"
+      android:text="S-MUSIC "
+      android:textColor="#FFEB3B"
+      android:textSize="48sp"
+      android:textStyle="bold|italic"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/play"
+      android:layout_width="67dp"
+      android:layout_height="78dp"
+      android:background="@android:drawable/ic_media_play"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.474"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.534"
+      tools:ignore="SpeakableTextPresentCheck" />
+
+  <Button
+      android:id="@+id/next"
+      android:layout_width="73dp"
+      android:layout_height="84dp"
+      android:background="#FDFFFF"
+      android:foreground="@android:drawable/ic_media_ff"
+      android:textColor="#151515"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.787"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.534"
+      tools:ignore="SpeakableTextPresentCheck" />
+
+  <Button
+      android:layout_width="69dp"
+      android:layout_height="78dp"
+      android:background="#FDFFFF"
+      android:foreground="@android:drawable/ic_media_rew"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.149"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.534"
+      tools:ignore="SpeakableTextPresentCheck" />
+
+  <TextView
+      android:id="@+id/music_title"
+      android:layout_width="781dp"
+      android:layout_height="71dp"
+      android:layout_marginTop="172dp"
+      android:gravity="center_horizontal"
+      android:text="MUSIC TITLE"
+      android:textColor="#0E0E0E"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/name" />
+
+  <SeekBar
+      android:id="@+id/seekBar2"
+      android:layout_width="625dp"
+      android:layout_height="50dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.47" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="610dp"
+      android:layout_height="222dp"
+      android:background="#FDFFFF"
+      android:scaleType="centerInside"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.538"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.27"
+      app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
