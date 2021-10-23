@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+    >
+    tools:context=".MainActivity">
+<!-- one -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+       >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background=""
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24" />
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:paddingLeft="100dp"
+
+            />
+         <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+             android:layout_gravity="center"
+
+             android:background=""
+             app:srcCompat="@drawable/ic_baseline_shopping_bag_24" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- two -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="enjoy" />
+    </LinearLayout>
+    <!-- three -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imporove btn image layout" />
+    </LinearLayout>
+    <!-- four -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="recyclerview categories" />
+    </LinearLayout>
+    <!-- five -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="scrolable recycler layout" />
+    </LinearLayout>
+
+</LinearLayout>
