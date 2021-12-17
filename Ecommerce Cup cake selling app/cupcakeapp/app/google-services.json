@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:700972627638:android:5bcfadb41bdf38f68b9817",
         "android_client_info": {
-          "package_name": "com.example.lola"
+          "package_name": "com.cupcakewithloalas.lola"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "700972627638-4tllm3g9333d737fulmsiqnsjqnj4n8f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.lola",
+            "package_name": "com.cupcakewithloalas.lola",
             "certificate_hash": "c3eccc484279774db5aff1dd917c20e811be0870"
           }
         },

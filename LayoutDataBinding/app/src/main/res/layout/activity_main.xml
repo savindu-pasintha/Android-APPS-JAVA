@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+<data>
+    <variable
+        name="contact"
+        type="spl.support.layoutdatabinding.Contact" />
+    <variable
+        name="clickHandler"
+        type="spl.support.layoutdatabinding.MainActivity.ClickHandler" />
+
+</data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <include
+            android:id="@+id/content"
+            layout="@layout/content_main"
+            android:visibility="visible"
+            bind:contact="@{contact}"
+            />
+    </LinearLayout>
+
+</layout>

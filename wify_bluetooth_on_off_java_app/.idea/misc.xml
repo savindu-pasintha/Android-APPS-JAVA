@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/drawable/box_border.xml" value="0.21354166666666666" />
+        <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/activity_board.xml" value="0.19157608695652173" />
+        <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/activity_boardkey2.xml" value="0.18070652173913043" />
         <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/activity_notification_view.xml" value="0.18342391304347827" />
+        <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/activity_number_key_board_lay_out.xml" value="0.22" />
+        <entry key="..\:/androidApps/wify_bluetooth_on_off_java_app/app/src/main/res/layout/board_layout.xml" value="0.18070652173913043" />
       </map>
     </option>
   </component>

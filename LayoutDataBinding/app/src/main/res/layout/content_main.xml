@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <data>
+        <variable
+            name="contact"
+            type="spl.support.layoutdatabinding.Contact" />
+        <variable
+            name="clickHandler"
+            type="spl.support.layoutdatabinding.MainActivity.ClickHandler" />
+    </data>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="55dp"
+            android:textStyle="bold"
+            android:text="@{contact.firstName}"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="55dp"
+            android:textStyle="bold"
+            android:text="@{contact.lastName}"/>
+        <Button
+            android:id="@+id/button1"
+            android:text="click"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{clickHandler::getValueClick}"
+
+            />
+        <Button
+            android:id="@+id/button2"
+            android:text="long click"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{clickHandler::getValueLongClick}"
+
+            />
+        <!--Button
+            android:id="@+id/button3"
+            android:text="get with parameters"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)->clickHandler.getValueLongClickWithParameter(view,contact)}"
+            /-->
+
+        <!--Button
+            android:id="@+id/button4"
+            android:text="contact click"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{contact::getValueClick}"
+
+            /-->
+        <!--Button
+            android:id="@+id/button5"
+            android:text="contact long click"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{contact::getValueLongClick}"
+
+            /-->
+        <!--Button
+            android:id="@+id/button6"
+            android:text="contact get with parameters"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)->contact.getValueLongClickWithParameter(view,contact)}"
+            /-->
+
+    </LinearLayout>
+</layout>
